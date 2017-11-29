@@ -2,12 +2,7 @@
 
 [Passport](http://passportjs.org/) strategy for authenticating with imap
 
-This module serves the purpose of authenticating a user using email login credentials in Node.js/Sails.js application.
-This can be unobtrusively integrated with any Node.js application using passport for authentication
-
-## Install
-
-    $ npm install passport-imap
+This is customized from the original passport-imap by Fort Systems Ltd. to work in the same way, but to allow for a verify callback instead of `success_callback` as most other passport strategies.
 
 ## Usage
 
